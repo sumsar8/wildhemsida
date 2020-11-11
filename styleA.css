@@ -1,0 +1,69 @@
+.Banantext {
+    font-size: 100px;
+    font-family: Roboto, Charcoal, sans-serif;
+}
+
+.Pungtext {
+    font-size: 150px;
+    font-family: Roboto, Charcoal, sans-serif;
+}
+.Säcktext{
+    font-size: 75px;
+    font-family: Roboto, Charcoal, sans-serif;
+}
+
+
+p {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+img  {
+    margin-right: 75px;
+}
+#aaaa {
+    border-right: 150px solid rgb(243, 243, 243);
+    border-left: 150px solid rgb(243, 243, 243);
+    border-top: 25px solid rgb(243, 243, 243);
+    background: rgb(248, 248, 248);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+body {
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+  .button {
+    background-color: #ff0000;
+    border: 10px;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 23px;
+    margin: 6px 3px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .button1:hover {
+    opacity: 1
+  }
