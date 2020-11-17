@@ -34,36 +34,37 @@ body {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
   
-  li {
-    float: left;
-  }
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+.button {
+  background-color: #ff0000;
+  border: 10px;
+  border-radius: 5px;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  font-size: 2.485rem;
+  margin: 6px 3px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button1:hover {
+  opacity: 1
+}
   
-  li a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-  }
-  .button {
-    background-color: #ff0000;
-    border: 10px;
-    border-radius: 5px;
-    color: white;
-    padding: 20px 40px;
-    text-align: center;
-    font-size: 23px;
-    margin: 6px 3px;
-    opacity: 0.6;
-    transition: 0.3s;
-    display: inline-block;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  .button1:hover {
-    opacity: 1
-  }
